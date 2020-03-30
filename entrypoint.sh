@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/sh -l
 
 echo "======================"
 echo "= Linting OAS file   ="
