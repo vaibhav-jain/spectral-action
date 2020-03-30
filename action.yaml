@@ -5,5 +5,7 @@ inputs:
     description: 'Path to OAS file for validation'
     required: true
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.file-path }}
