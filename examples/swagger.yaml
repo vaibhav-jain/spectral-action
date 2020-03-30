@@ -697,5 +697,5 @@ definitions:
       message:
         type: "string"
 externalDocs:
-  description: "Find out more about Swagger"
+  description: "Find out more about Swagger Specification"
   url: "http://swagger.io"
