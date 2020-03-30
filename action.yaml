@@ -1,0 +1,9 @@
+name: 'Swagger cli action'
+description: 'Run Swagger validation on your OAS JSON or YAML file. Supports Swagger 2.0 or OpenAPI 3.0 format'
+inputs:
+  file-path:
+    description: 'Path to OAS file for validation'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
