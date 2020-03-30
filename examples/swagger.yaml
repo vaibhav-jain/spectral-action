@@ -660,7 +660,7 @@ definitions:
         format: "int64"
       category:
         $ref: "#/definitions/Category"
-      name:
+    name:
         type: "string"
         example: "doggie"
       photoUrls:
