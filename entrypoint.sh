@@ -4,4 +4,4 @@ echo "======================"
 echo "= Linting OAS file   ="
 echo "======================"
 
-node node_modules/@apidevtools/swagger-cli/bin/swagger-cli validate "$1"
+node node_modules/@apidevtools/swagger-cli/bin/swagger-cli validate "$INPUT_FILE_PATH"
