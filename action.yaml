@@ -1,11 +1,11 @@
 name: 'Swagger cli action'
 description: 'Run Swagger validation on your OAS JSON or YAML file. Supports Swagger 2.0 or OpenAPI 3.0 format'
 inputs:
-  file_path:
-    description: 'Path to OAS file for validation'
+  args:
+    description: 'Arguments. Use --help to see the complete list of supported args'
     required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.file_path }}
+    - ${{ inputs.args }}
