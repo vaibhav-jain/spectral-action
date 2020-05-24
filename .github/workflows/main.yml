@@ -24,6 +24,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: swagger-cli
-      uses: mpetrunic/swagger-cli-action/@${{GITHUB_SHA}}
+      uses: mpetrunic/swagger-cli-action/@master
       with:
-        args: validate examples/swagger.yaml
+        args: "validate examples/swagger.yaml"
