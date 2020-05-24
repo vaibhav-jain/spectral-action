@@ -1,11 +1,11 @@
 name: 'Open API Specification Lint action'
 description: 'Runs Swagger validation on your OAS JSON or YAML file. Supports Swagger 2.0 or OpenAPI 3.0 format'
 inputs:
-  args:
+  command:
     description: 'Swagger-cli command arguments'
     required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.args }}
+    - ${{ inputs.command }}

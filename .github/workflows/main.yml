@@ -26,4 +26,4 @@ jobs:
     - name: swagger-cli
       uses: mpetrunic/swagger-cli-action/@master
       with:
-        args: "validate examples/swagger.yaml"
+        args: validate examples/swagger.yaml

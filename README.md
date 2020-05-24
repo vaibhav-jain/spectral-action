@@ -12,6 +12,6 @@ GitHub Action for running swagger-cli commands.
 ```yaml
 uses: mpetrunic/swagger-cli-action@v1
 with:
-  args: "validate examples/swagger.yaml"
+  command: "validate examples/swagger.yaml"
 
 ```
