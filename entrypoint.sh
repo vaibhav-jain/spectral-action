@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
-echo "======================"
-echo "= Linting OAS file   ="
-echo "======================"
+echo "==============================="
+echo "= Running swagger-cli command ="
+echo "==============================="
 
-cd /github/workspace/ && spectral lint "$INPUT_FILE_PATH"
+cd /github/workspace/ && swagger-cli "$INPUT_ARGS"

@@ -24,6 +24,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: swagger-cli
-      uses: vaibhav-jain/swagger-cli-action/@v1.2
+      uses: mpetrunic/swagger-cli-action/@${{ github.sha }}
       with:
-        file_path: examples/swagger.yaml
+        args: validate examples/swagger.yaml
