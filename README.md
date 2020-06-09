@@ -1,3 +1,3 @@
-# swagger-cli-action
+# spectral-action
 GitHub Action for validating swagger or open api specification JSON or YAML file
 
