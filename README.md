@@ -10,7 +10,7 @@ GitHub Action for running swagger-cli commands.
 
 ## Example usage
 ```yaml
-uses: mpetrunic/swagger-cli-action@v1
+uses: mpetrunic/swagger-cli-action@v1.0.0
 with:
   command: "validate examples/swagger.yaml"
 
