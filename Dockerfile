@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:12
 
-RUN npm install -g @apidevtools/swagger-cli@4.0.2
+RUN npm install -g @apidevtools/swagger-cli@4.0.4
 
 COPY entrypoint.sh /usr/local/bin/
 
