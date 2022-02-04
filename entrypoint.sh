@@ -3,4 +3,4 @@
 echo "==============================="
 echo "= Running swagger-cli command ="
 echo "==============================="
-cd /github/workspace/ && swagger-cli $*
+cd $GITHUB_WORKPLACE && swagger-cli $*
